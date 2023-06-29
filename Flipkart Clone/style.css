@@ -1,0 +1,164 @@
+   :root{
+    --main-bg-color: #2874f0;
+   }
+   *
+    {
+        margin: 0;
+        padding: 0; 
+    }
+    /* Header block edit header heading, logo and searh box */
+    header{
+        height: 6vh;
+        width: 100vw;
+        background-color: var(--main-bg-color);
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    nav{
+        display: flex;
+    }
+
+    /* Make heading in one horizontal line */
+    nav ul li{
+        list-style: none;
+        padding: 0 2vw;
+        font-size: 1.25vw;
+        
+    }
+
+    nav ul li a{
+        color:white;
+        text-decoration: none;
+    }
+
+    /* It change color of word when cursor placed on it */
+    nav ul li a:hover{
+        color:  rgb(210, 210, 210);
+        text-decoration: none;
+
+    }
+
+
+    
+    /* It makes page computer size with the help of calculation function */
+    .container
+    {
+        
+        min-height: calc(100vh - 58px - 6vh);
+    }
+    .front img{
+        width: 100vw;
+    }
+    /* .slider img
+    {
+        width:100vw;
+        height: 45vh;
+    } */
+    .slider
+    {
+        display: flex;
+        /* width: 32.5vw; */
+        margin-left: 0.5vw;
+    }
+    .slider img{
+        width: 30vw;
+        height: 35vh;
+        margin-left: 0.5vw;
+    }
+    .slider iframe
+    {
+        
+        width: 39vw;
+        height: 35vh;
+        margin-left: 0.5vw;
+    }
+
+    /* .slider iframe
+    {
+        width: 100vw;
+        height: 45vh;
+    } */
+    .big img
+    {
+        width: 100vw;
+        height: 30vh;
+    }
+    .realme img
+    {
+        width: 32vw;
+        margin-left: 0.5vw;
+    }
+    .hdfc img
+    {
+        width: 100vw;
+        height: 7vh;
+        margin-left: 0.25vw;
+    }
+   
+
+
+    nav ul{
+        
+        height: 6vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+         /* padding: 2vh; */
+    }
+    footer{
+        height: 8vh;
+        width: 100vw;
+        background-color: var(--main-bg-color);
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.2vw;
+    }
+    
+    .logo img
+    {
+        width:7vw;
+        padding: 0 5vw;
+    }
+    .logo
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Addition of search coloumn on header */
+    .search
+    {
+        display: flex;
+        
+    }
+    .search input
+    {
+        width: 30vw;
+        height: 3.5vh;
+        margin: 1vh;
+        font-size: 1vw;
+        border-radius:0.35vw;
+        padding-left: 1vw;
+  
+    }
+
+    /* For search button */
+    .button
+    {
+        display: flex;
+        margin: 1.5vh 1vw 0vh 0vw;
+        
+    }
+    .btn{
+        font-size: 1vw;
+        height: 3vh;
+        font-weight: 900;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        background-color: white;
+        color: #2874f0;
+        width: 5vw;
+        border-radius: 0.25vw;
+        cursor: pointer;
+    }
